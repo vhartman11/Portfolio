@@ -1,41 +1,12 @@
-import React  from 'react'; 
+//everything on this page needs to be changed over to react
 
-export function Github() {
-    return(
-    <div><h1>github stuff here</h1></div>
-    )
-}
+import React from 'react';
+import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import './fishingmap.css';
 
-{/*
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Places I've Fished</title>
-		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-		<link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
-		<script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
-		<style>
-			body { margin: 0; padding: 0; }
-			#map { position: absolute; top: 0; bottom: 0; width: 100%; }
-		</style>
-	</head>
+mapboxgl.accessToken = 'pk.eyJ1IjoidmhhcnRtYW4xMSIsImEiOiJjbDFpbjB6cmwxdjlwM2NwY2JmNDd6ZWNhIn0.02BAwia3PHsP0Rdg7G6TYw';
 
-	<body>
-		<style>
-			.marker {
-			display: block;
-			border: none;
-			border-radius: 50%;
-			cursor: pointer;
-			padding: 0;
-			}
-		</style>
-	
-		<div id="map"></div>  
-	
-		<script>
-			mapboxgl.accessToken = 'pk.eyJ1IjoidmhhcnRtYW4xMSIsImEiOiJjbDFpbjB6cmwxdjlwM2NwY2JmNDd6ZWNhIn0.02BAwia3PHsP0Rdg7G6TYw';
+export function FishMap() {	
 
 			const fish = {  // this is the array of places i have fished.  The waters names and coordinates.
 				'type': 'FeatureCollection',
@@ -213,7 +184,6 @@ export function Github() {
 				.addTo(map);
 			} 
 
-		</script>
-	</body>
-</html>
-        */}
+		
+
+}
