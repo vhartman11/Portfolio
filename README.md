@@ -25,6 +25,7 @@ I am also in the process of creating a map that shows some of the places that I 
 ## License
 
 MIT
+
 People are welcoome to use this as a template and that is it! My information, pictures, videos, links must all be removed before use.
 
 I also will not guarantee that this code will work for you.
