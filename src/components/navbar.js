@@ -20,7 +20,7 @@ export function Navigation() {
             </NavDropdown>
             <Nav.Link href="#/projects/">Projects</Nav.Link>
             <Nav.Link href="#/about/">About Me</Nav.Link>
-            <Nav.Link href="#/contact">Contact Me</Nav.Link>
+            <Nav.Link href="#/contact/">Contact Me</Nav.Link>
             {/* <Nav.Link href="#/map">Map</Nav.Link> in development */}
           </Nav>
         </Navbar.Collapse>

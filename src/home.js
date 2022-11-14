@@ -1,6 +1,8 @@
 import React    from 'react'; 
 import Vincepic from './images/Vincepic.jpg';
 import './home.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from  'react-bootstrap';
 
 export function Home() {
   return(
@@ -27,17 +29,24 @@ export function Home() {
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
-            <iframe
-              width="560" height="315" frameborder="0"
-              src="https://www.youtube.com/embed/L0XvrrxCIms"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
+            <Container fluid>
+              <div className="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/L0XvrrxCIms" title="YouTube video" allowFullScreen></iframe>
+              </div>
+            </Container>
           </div>
-          <div class="col-md p-5"><h2>Let me intoduce myself.</h2></div>
+          <div class="col-md p-5"><h2>Allow me intoduce myself.</h2></div>
         </div>
       </div>
     </section>
-    </>
+    
+  
+</>
+  
+  
+  
+  
+  
+  
   );
 };
