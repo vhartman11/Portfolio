@@ -22,9 +22,6 @@ One of the goals of this website is to showcase my skill sets which means this p
 There are some other feature like a small slide show of picture related to my hobbies that I would like to add.
 I am also in the process of creating a may that shows some of the places that I have fished for my hobbies page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ## License
 
 MIT
