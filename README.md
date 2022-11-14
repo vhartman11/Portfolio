@@ -2,7 +2,7 @@
 
 ## Created by Vince Hartman
 
-This project was created to showcase some of my skill sets, link to my professional pagesa, and give a way for employers to get in touch with me.
+This project was created to showcase some of my skill sets, links to my professional pagesa, and give a way for employers to get in touch with me.
 
 ## Technology used:
 
