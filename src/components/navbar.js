@@ -9,7 +9,7 @@ export function Navigation() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#">My Portfolio</Navbar.Brand>
+        <Navbar.Brand href="/">My Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -18,9 +18,9 @@ export function Navigation() {
               <NavDropdown.Item href="https://github.com/vhartman11" target="_blank"><Icon.Github color="black" size="1rem"/> GitHub</NavDropdown.Item>
               <NavDropdown.Item href="https://profile.indeed.com/?hl=en&co=US&from=gnav-homepage&_ga=2.18522425.1007235782.1668047438-1241968890.1639360763" target="_blank"><Icon.Info color="blue" size="1.5rem"/>indeed</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#/projects/">Projects</Nav.Link>
-            <Nav.Link href="#/about/">About Me</Nav.Link>
-            <Nav.Link href="#/contact">Contact Me</Nav.Link>
+            <Nav.Link href="/projects/">Projects</Nav.Link>
+            <Nav.Link href="/about/">About Me</Nav.Link>
+            <Nav.Link href="/contact">Contact Me</Nav.Link>
             {/* <Nav.Link href="#/map">Map</Nav.Link> in development */}
           </Nav>
         </Navbar.Collapse>
