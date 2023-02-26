@@ -82,7 +82,7 @@ export function About() {
             title="Fishing"
             imgSrc={Fishing}
             imgAlt="9.5 pound carp"
-            cardText="I try to go out whenever I can.  I enjoy catching all species of fish."
+            cardText="I try to go out I can.  I enjoy catching all species of fish."
             link="./about/fishmap/"
             target=""
             iconType="map">
