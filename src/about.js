@@ -9,6 +9,7 @@ import { AboutCard } from './components/aboutCard';
 import { StoryCard } from './components/myStoryCard';
 //import { FishMap } from './fishmap';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 
 export function About() {
   return(
@@ -24,6 +25,24 @@ export function About() {
               <p>To see my resume, use the link below to navigate to my LinkedIn profile page.</p>
               <a href=" " class="btn btn-primary"><Nav.Link href="https://www.linkedin.com/in/vhartman11/" target="_blank">My LinkedIn Page</Nav.Link></a>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+        <div class="col-md">
+            <Card style={{ width: '70rem' }} bg="secondary">
+              <Card.Body>
+                <Card.Title>Resume</Card.Title>
+                <Card.Text>
+                To see my resume, use the link below to navigate to my LinkedIn profile page.
+                </Card.Text>
+                <Card.Link href="https://www.linkedin.com/in/vhartman11/" target="_blank" class="btn btn-primary">My LinkedIn Page</Card.Link>
+              </Card.Body>
+            </Card>
           </div>
         </div>
       </div>
@@ -83,9 +102,9 @@ export function About() {
             imgSrc={Fishing}
             imgAlt="9.5 pound carp"
             cardText="I try to go out I can.  I enjoy catching all species of fish."
-            link=""
+            link="./about/fishmap/"
             target=""
-            iconType="">
+            iconType="map">
           </AboutCard>
           </Col>
 

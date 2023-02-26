@@ -10,7 +10,11 @@ export function RenderIcon(props) {
         case "youtube":
             return(
                 <Icon.Youtube color="#FF0000" size="2em" />
-            )       
+            )
+        case "map":
+            return(
+                <Icon.Map color="Black" size="2em" />
+            )    
         default : 
                 return <></>
     }
