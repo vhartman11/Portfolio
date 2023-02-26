@@ -6,7 +6,6 @@ import {Home}       from './home';
 import {Projects}   from './projects';
 import {Contact}    from './contact';
 import {Navigation} from './components/navbar';
-import {FishMap}     from './fishmap';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
             <Route path="/about/"    element={<About/>} />
             <Route path="/projects/" element={<Projects/>} />
             <Route path="/contact/"  element={<Contact/>} />
-            <Route path="/about/fishmap/" element={<FishMap/>} />
           </Routes>
         </div>
     </HashRouter>
