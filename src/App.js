@@ -4,7 +4,6 @@ import 'bootstrap';
 import {About}      from './about';
 import {Home}       from './home';
 import {Projects}   from './projects';
-import {Contact}    from './contact';
 import {Navigation} from './components/navbar';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
             <Route path="/"    exact element={<Home/>} />
             <Route path="/about/"    element={<About/>} />
             <Route path="/projects/" element={<Projects/>} />
-            <Route path="/contact/"  element={<Contact/>} />
           </Routes>
         </div>
     </HashRouter>
