@@ -6,7 +6,6 @@ import {
   //Route,
 } from "react-router-dom"
 //import App      from './App';
-import 'mapbox-gl/dist/mapbox-gl.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
