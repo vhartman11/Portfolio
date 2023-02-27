@@ -5,6 +5,7 @@ import Fishing    from './images/fish.jpg';
 import Homestead  from './images/homestead.jpg';
 import Inspection from './images/inspection.jpg';
 import Logo       from './images/logo.jpg';
+import Certificate   from './images/certificate.png';
 import { AboutCard } from './components/aboutCard';
 import { StoryCard } from './components/myStoryCard';
 //import { FishMap } from './fishmap';
@@ -34,6 +35,18 @@ export function About() {
         </div>
       </div>
     </section>
+
+    <section id="MIT certificate" class="p-5 bg-black">
+      <div class="container">
+          <div class="col-md">
+            <div class="row g-4">
+            <img class="img-fluid" src={Certificate} style={{ alignSelf: 'center' }} alt='coding certificate' />
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    
 
     <section id="my story" class="p-5">
         <StoryCard
