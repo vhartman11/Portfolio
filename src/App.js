@@ -5,7 +5,6 @@ import {About}      from './about';
 import {Home}       from './home';
 import {Projects}   from './projects';
 import {Navigation} from './components/navbar';
-import {FishMap}     from './fishmap';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
             <Route path="/"    exact element={<Home/>} />
             <Route path="/about/"    element={<About/>} />
             <Route path="/projects/" element={<Projects/>} />
-            <Route path="/about/fishmap/" element={<FishMap/>} />
           </Routes>
         </div>
     </HashRouter>
